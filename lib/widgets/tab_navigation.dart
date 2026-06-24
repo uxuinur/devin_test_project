@@ -6,6 +6,7 @@ class TabNavigation extends StatelessWidget {
   final Function(int) onTabChanged;
 
   const TabNavigation({
+    super.key,
     required this.selectedIndex,
     required this.onTabChanged,
   });

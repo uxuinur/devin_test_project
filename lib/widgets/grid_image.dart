@@ -3,7 +3,10 @@ import 'package:flutter/material.dart';
 class GridImage extends StatelessWidget {
   final String imageUrl;
 
-  const GridImage({required this.imageUrl});
+  const GridImage({
+    super.key,
+    required this.imageUrl,
+  });
 
   @override
   Widget build(BuildContext context) {

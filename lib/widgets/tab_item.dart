@@ -6,6 +6,7 @@ class TabItem extends StatelessWidget {
   final VoidCallback onTap;
 
   const TabItem({
+    super.key,
     required this.label,
     required this.isSelected,
     required this.onTap,

@@ -8,6 +8,7 @@ class BottomNavItem extends StatelessWidget {
   final bool hasBadge;
 
   const BottomNavItem({
+    super.key,
     required this.label,
     required this.isSelected,
     required this.onTap,

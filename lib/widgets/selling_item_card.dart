@@ -8,6 +8,7 @@ class SellingItemCard extends StatelessWidget {
   final bool isSold;
 
   const SellingItemCard({
+    super.key,
     required this.imageUrl,
     required this.title,
     required this.price,
